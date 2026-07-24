@@ -27,4 +27,18 @@ def fibonacci(n):
 item=int(input("Enter the number: "))
 for i in range(item):
          print(fibonacci(i),end=" ")
-  
+
+# Prime NUmbers
+num=int(input("Enter the number: "))
+if num > 1:
+    for i in range(2,num):
+        if num % 1==0:
+           print(num,"Is is not a prime number")
+          break
+    else:
+        print(num,"Is is Prime number")
+else:
+  print(num,"It is not a Prime number")
+          
+          
+        
