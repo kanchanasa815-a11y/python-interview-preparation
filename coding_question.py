@@ -32,13 +32,29 @@ for i in range(item):
 num=int(input("Enter the number: "))
 if num > 1:
     for i in range(2,num):
-        if num % 1==0:
+        if num % i==0:
            print(num,"Is is not a prime number")
           break
     else:
         print(num,"Is is Prime number")
 else:
   print(num,"It is not a Prime number")
+
+# Armstrong
+num=int(input("Enter the number"))
+temp=num
+digits=len(str(num))
+total=0
+while temp>0:
+  digit=temp%10
+  sum+=digit**digits
+  tem=temp//10
+if sum==num:
+  print(num,"os an Armstrong Number")
+else:
+  print(num,"is not an Armstrong number")
+  
+
           
           
         
