@@ -47,10 +47,10 @@ digits=len(str(num))
 total=0
 while temp>0:
   digit=temp%10
-  sum+=digit**digits
-  tem=temp//10
+  total+=digit**digits
+  temp=temp//10
 if sum==num:
-  print(num,"os an Armstrong Number")
+  print(num,"is an Armstrong Number")
 else:
   print(num,"is not an Armstrong number")
   
