@@ -49,7 +49,7 @@ while temp>0:
   digit=temp%10
   total+=digit**digits
   temp=temp//10
-if sum==num:
+if total==num:
   print(num,"is an Armstrong Number")
 else:
   print(num,"is not an Armstrong number")
