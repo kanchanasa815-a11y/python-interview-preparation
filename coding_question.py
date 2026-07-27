@@ -60,7 +60,14 @@ fact=1
 for i in range(1,num+1):
   fact=fact*i
 print("Factorial= ",fact)
-  
+
+#Count Vowel
+string=input("Enter the string: ")   or  string=input("Enter the string: ").lower()
+count=0                                  count=0                              
+for ch in string:                        for ch in string:
+  if ch in "aeiouAEIOU":                   if ch in "aeiou":   
+    count+=1                                   count+=1
+    print(count)                               print(count)
 
           
           
