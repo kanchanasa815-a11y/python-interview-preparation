@@ -41,7 +41,7 @@ else:
   print(num,"It is not a Prime number")
 
 # Armstrong
-num=int(input("Enter the number"))
+num=int(input("Enter the number: "))
 temp=num
 digits=len(str(num))
 total=0
