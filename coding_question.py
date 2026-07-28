@@ -74,6 +74,10 @@ number=[2,3,4,2,5,2,4,5]
 num=list(set(number))
 print(num)
 
+# Preserves original order while removing duplicates
+my_list = [4, 2, 2, 1, 4]
+unique_list = list(dict.fromkeys(my_list))
+print(unique_list)  # [4, 2, 1]
           
           
         
