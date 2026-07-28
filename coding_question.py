@@ -69,6 +69,11 @@ for ch in string:                        for ch in string:
     count+=1                                   count+=1
     print(count)                               print(count)
 
+#Remove the duplicate element in the list
+number=[2,3,4,2,5,2,4,5]
+num=list(set(number))
+print(num)
+
           
           
         
