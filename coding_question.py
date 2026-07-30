@@ -78,6 +78,15 @@ print(num)
 my_list = [4, 2, 2, 1, 4]
 unique_list = list(dict.fromkeys(my_list))
 print(unique_list)  # [4, 2, 1]
+
+#Two Sum
+
+num=list(map(int,input("Enter the number: ").split()))
+target=int(input("ENter Target: "))
+for i in range(len(num)):
+    for j in range(i+1,len(num)):
+        if num[i]+num[j]==target:
+            print(i,j)
           
           
         
