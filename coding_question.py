@@ -80,13 +80,26 @@ unique_list = list(dict.fromkeys(my_list))
 print(unique_list)  # [4, 2, 1]
 
 #Two Sum
-
 num=list(map(int,input("Enter the number: ").split()))
 target=int(input("ENter Target: "))
 for i in range(len(num)):
     for j in range(i+1,len(num)):
         if num[i]+num[j]==target:
             print(i,j)
+#Binary Search
+numbers=[2,4,5,7,8,9]
+target=9
+left=0
+right=len(numbers)-1
+while left<=right:
+  mid=(left+right)
+  if numbers[mid]==target:
+    print("Found")
+    break
+  elif numbers[mid]<target:
+    left=mid+1
+  else:
+    right=mid-1
           
           
         
